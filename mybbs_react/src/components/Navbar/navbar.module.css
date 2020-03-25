@@ -1,0 +1,24 @@
+.navbar {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    grid-area: nav;
+}
+
+.itemGroup {
+    display: flex;
+}
+
+.logo {
+    width: 55px;
+    height: 100%;
+    background: black;
+    
+}
+.logo::before {
+    color: white;
+    line-height: 55px;
+    content: "LOGO"
+}
